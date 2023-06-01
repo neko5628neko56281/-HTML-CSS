@@ -350,20 +350,18 @@ body,div,p,ul,ol,li,dl,dt,dd,table,th,td,img,figure,h1,h2,h3,h4,h5,h6,form,selec
                 width: 104px
             }
 
-            .HeaderNavHamburger {
-                display: none
-            }
-
+            
             @media screen and (max-width: 1080px) {
                 .HeaderNavHamburger {
-                    cursor:pointer;
+                   position: relative;
                     display: block;
-                    position: relative;
                     width: 30px;
                     height: 21px;
                     z-index: 100
+                    
                 }
             }
+            
 
             @media screen and (max-width: 1080px) {
                 .HeaderNavHamburger__line {
@@ -407,7 +405,7 @@ body,div,p,ul,ol,li,dl,dt,dd,table,th,td,img,figure,h1,h2,h3,h4,h5,h6,form,selec
                 }
             }
 
-            @media screen and (max-width: 1080px) {
+@media screen and (max-width: 1080px) {
                 .is-active .HeaderNavHamburger__line:last-child {
                     top:50%;
                     transform: translate(0,-50%) rotate(-45deg);
